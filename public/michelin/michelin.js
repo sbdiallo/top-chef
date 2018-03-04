@@ -2,6 +2,8 @@
 	Get all michelin starred restaurants: name, zipcode and nbStars
 
  */
+
+
 var fs = require('fs');
 request = require('request');
 cheerio = require('cheerio');
