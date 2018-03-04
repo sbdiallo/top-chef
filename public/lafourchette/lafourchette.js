@@ -5,6 +5,8 @@ request = require('request');
 cheerio = require('cheerio');
 
 
+
+
 var Reader = require('readline').createInterface({
   input: require('fs').createReadStream('id-lafourchette.txt')
 });
